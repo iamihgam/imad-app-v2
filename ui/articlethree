@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> Article Three| Marcus</title>
+    </head>
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <body>
+        <div>
+            <a href= "/"> Home</a>
+        </div>
+        <hr>
+        <h3>German Learning</h3>
+        <div>
+            March 2017
+        </div>
+        <div>
+            <pre>
+                
+                - Angenehm: Pleased to meet you
+                - Ich verstehe nicht : I dont understand
+                - Nein, leider nicht : No, unfortunately don't
+                - 
+            </pre>
+        </div>
+    </body>
+</html>
