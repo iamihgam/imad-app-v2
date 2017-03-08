@@ -13,7 +13,7 @@ var articleOne={
                 - Guten Morgen : Good Morning
                 - Guten Tag : Good Day
                 - Guten Abend : Good Evening `
-}
+};
 
 function createTemplate(data){
     var title = data.title;
