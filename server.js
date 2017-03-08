@@ -31,6 +31,18 @@ var articleTwo={
                 - Ja, bitte : Yes, please.
 `};
 
+var articleThree={
+    title: ' GerMan lessons| Marcus',
+    heading: 'Article Three ',
+    date: 'March 2017',
+    content: ` Learn German
+              Learne German
+                - Icht Verstehe nicht: I do not understand
+                -  Leider nicht : Unfortunateley dont
+                - Wie geht es Ihnen? How are you
+                - Wie heiben sie ? what is your name
+`};
+
 function createTemplate(data){
     var title = data.title;
     var date = data.date;
