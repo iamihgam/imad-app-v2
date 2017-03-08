@@ -5,15 +5,15 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne{`
-    title: ' Artile One| Marcus'
-    heading: 'Article One'
-    date: 'March 2017'
+var articleOne={
+    title: ' Artile One| Marcus',
+    heading: 'Article One',
+    date: 'March 2017',
     content: ` Learne German
                 - Guten Morgen : Good Morning
                 - Guten Tag : Good Day
-                - Guten Abend : Good Evening`
-`}
+                - Guten Abend : Good Evening `
+}
 
 function createTemplate(data){
     var title = data.title;
