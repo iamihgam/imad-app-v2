@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles ={
-var articleOne={
+'articleOne':{
     title: ' Artile One| Marcus',
     heading: 'Article One',
     date: 'March 2017',
@@ -16,7 +16,7 @@ var articleOne={
                 - Guten Abend : Good Evening `
 };
 
-var articleTwo={
+'articleTwo':{
     title: ' GerMan lessons| Marcus',
     heading: 'German lessons',
     date: 'March 2017',
@@ -32,7 +32,7 @@ var articleTwo={
                 - Ja, bitte : Yes, please.
 `};
 
-var articleThree={
+'articleThree':{
     title: ' GerMane lessons| Marcus',
     heading: 'Article Three ',
     date: 'March 2017',
