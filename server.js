@@ -16,7 +16,7 @@ var articleOne={
 };
 
 var articleTwo={
-    title: ' German lessons| Marcus',
+    title: ' GerMan lessons| Marcus',
     heading: 'German lessons',
     date: 'March 2017',
     content: ` Learne German
