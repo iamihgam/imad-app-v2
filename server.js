@@ -14,7 +14,7 @@ var articles ={
                 - Guten Morgen : Good Morning
                 - Guten Tag : Good Day
                 - Guten Abend : Good Evening `
-};
+}
 
 'articleTwo':{
     title: ' GerMan lessons| Marcus',
@@ -30,7 +30,7 @@ var articles ={
                 - Trinken Sie einen Kaffee? - Do you want a coffee.
                 - Nein, danke ? No thank you
                 - Ja, bitte : Yes, please.
-`};
+`}
 
 'articleThree':{
     title: ' GerMane lessons| Marcus',
@@ -42,9 +42,9 @@ var articles ={
                 -  Leider nicht : Unfortunateley dont
                 - Wie geht es Ihnen? How are you
                 - Wie heiben sie ? what is your name
-`};
+`}
 
-};
+ };
 function createTemplate(data){
     var title = data.title;
     var date = data.date;
