@@ -32,7 +32,7 @@ var articleTwo={
 `};
 
 var articleThree={
-    title: ' GerMan lessons| Marcus',
+    title: ' GerMane lessons| Marcus',
     heading: 'Article Three ',
     date: 'March 2017',
     content: ` Learn German
