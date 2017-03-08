@@ -15,6 +15,22 @@ var articleOne={
                 - Guten Abend : Good Evening `
 };
 
+var articleTwo={
+    title: ' German lessons| Marcus',
+    heading: 'German lessons',
+    date: 'March 2017',
+    content: ` Learne German
+                - Auf Wiedersehen : Goodbye
+                - Wie hieben Sie? What's your name
+                - Ich heibe Marcus : I am called Marcus
+                - Wie geht's? : How are you?
+                - Gut danke, und ihnen? Well thanks, and you?
+                - Sprechen Sie Englisch? - Do you speak English?
+                - Trinken Sie einen Kaffee? - Do you want a coffee.
+                - Nein, danke ? No thank you
+                - Ja, bitte : Yes, please.
+`};
+
 function createTemplate(data){
     var title = data.title;
     var date = data.date;
@@ -58,7 +74,7 @@ app.get('/articleone', function(req,res){
 });
 
 app.get('/articletwo', function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'articletwo.html'));
+    res.send(createTemplate(articleTwo));
 });
 
 app.get('/articlethree', function(req,res){
