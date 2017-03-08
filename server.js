@@ -19,7 +19,7 @@ var articleTwo={
     title: ' GerMan lessons| Marcus',
     heading: 'German lessons',
     date: 'March 2017',
-    content: ` Learne German
+    content: ` Learn German
                 - Auf Wiedersehen : Goodbye
                 - Wie hieben Sie? What's your name
                 - Ich heibe Marcus : I am called Marcus
